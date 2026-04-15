@@ -1,8 +1,9 @@
 import streamlit as st
 from groq import Groq
+
 st.set_page_config("PragyanAI Content Generator", layout="wide")
-st.title("PragyanAI - Content Generator")
-st.image("download.jpg")
+st.title("PragyanAI – Content Generator")
+st.image("dowload.jpg")
 
 # Get GROQ API Key
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
